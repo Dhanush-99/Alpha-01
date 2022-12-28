@@ -1,0 +1,41 @@
+h1{
+    color: red;
+}
+h2,h3{
+    color: red;
+    font-style: italic;
+    font-style: bold;
+    font-size: x-large;
+}
+.orderedlist{
+    color: brown;
+    font-size: 17px;
+}
+.sample{
+    color: brown;
+    letter-spacing: 4px;
+    font-weight: 548;
+}
+.footer{
+    color: brown;
+}
+a{
+    color: red;
+    background-color: yellow;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+
+}
+.in{
+background-color: yellow;
+font-weight: bold;
+}
+.line{
+    text-decoration: line-through;
+    font-weight: bold;
+}
+.high{
+    background-color: yellow;
+    font-weight: bold;
+}
