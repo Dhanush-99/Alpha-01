@@ -1,0 +1,105 @@
+	h1{
+     background-image: linear-gradient(to right, red, green, yellow);
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.some {
+  border: 1px solid purple;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: aqua;
+  height: 135px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.box{
+    width: 30%;
+    height: 100px;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: lightyellow;
+}
+.gap {
+   padding-left: 50px;
+  text-align: center;
+}
+.ranking {
+  align-items: center;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    background: radial-gradient(orange , grey , pink);
+    border: 2px solid black;
+}
+.rank{
+  border: 2px solid red;
+  line-height: 30px;
+  text-decoration: underline;
+  color: red;
+  background-color: yellow;
+  border-radius: 10px;
+  height: 80px;
+  width: 15%;
+  font-weight: bold;
+  text-align: center;
+  font-size: large;
+  padding-bottom: 20px;
+}
+.grid{
+    border: 1px solid black;
+    gap: 15px;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto auto ;
+}
+.boxy{
+    box-shadow: 0px 0px 5px black;
+    border: 1px solid whitesmoke;
+    font-weight: bold;
+    text-align: center;
+}
+.boxy1 {
+  background-color: lightcoral;
+    grid-column:1/5 ;
+    grid-row:1/2 ;
+}
+.boxy2 {
+  background-color: lightskyblue;
+    grid-column: 1/2;
+    grid-row:2/3 ;
+
+}
+.boxy3 {
+  background-color: lightgreen;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.boxy4 {
+  background-color: lightgoldenrodyellow;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.boxy5 {
+   background-color: lightseagreen;
+    grid-column:1/4 ;
+    grid-row: 3/4;
+}
+.boxy6 {
+  text-decoration:underline;
+    background-color: lightslategray;
+    grid-column:4/5 ;
+    grid-row:2/4 ;
+}
+.boxy7{
+  background-color: lightsalmon;
+    grid-column: 1/5;
+    grid-row: 4/5;
+}
