@@ -1,0 +1,126 @@
+body{
+    background-color: gray;
+}
+.head{
+    margin: auto;
+color: purple;
+font-style: italic;
+padding: 0 50px 0 50px;
+text-align: center;
+width: 200px;
+text-shadow: 1px 2px 2px brown;
+background-color: white;
+border: 6px solid red;
+border-radius: 15px;
+box-shadow: 5px 5px purple;       
+    
+}
+hr {
+width: 100%;
+}
+.main1{
+    border: 10px solid green ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#formcard{
+    font-weight: bold;
+    text-shadow: 1px 2px blue;
+    color: purple;
+    margin: 5px;
+    padding-top: 35px;
+}
+
+.card{
+    font-weight: bold;
+    text-shadow: 1px 2px blue;
+    color: purple;
+    margin: 10px;
+    padding-top: 35px;
+    
+    text-align: center;
+    border: 5px solid red;
+    border-radius: 15px;
+    box-shadow: 10px 10px purple;
+    width: 250px;
+    height: 200px;
+    background-color: azure;
+}
+.btn{
+font-weight: bolder;
+font-size: medium;
+border-radius: 15px;
+height: 30px;
+width: 120px;
+background-color: orangered;
+}
+.box{
+
+text-align: center;
+width: 900px;
+margin: 10px;
+margin-left: 200px;
+margin-right: 200px;
+background-color: green;
+
+}
+.mainbox
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.cards{
+height: 200px;
+width: 400px;
+border: 5px soild black;
+background-color:  rgb(238, 203, 88);
+}
+.mainbox{
+margin-top: 30px;
+}
+.heading{
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: larger;
+font-weight: bolder;
+}
+.content
+{
+ background-color: rgb(236, 236, 93);
+text-align: center;
+font-style: italic;
+font-weight: bold;
+padding: 10px;
+text-align: center;
+line-height: 30px;
+
+}
+.container{
+ width: 920px;
+margin-right: -20px;
+margin-left: 10px;
+}
+.float{  
+ margin: auto;
+background-color: green;
+width: 450px;
+display: flex;
+padding-left: 20px;
+margin-bottom: 20px;
+position: fixed;
+bottom: 20px;
+left: 475px;
+color: rgb(158, 48, 48);
+font-style: italic;
+font-weight: bold;
+background-color: white;
+border: 6px solid red;
+border-radius: 15px;
+box-shadow: 5px 5px purple;
+}
+h2{
+padding-top: 10px;
+}
