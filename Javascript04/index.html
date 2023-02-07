@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>JS Handson 4 Arrays</h1><br>
+    <p>1. Find the Product.</p>
+    <pre>const Find_Prod = (array, N) =&gt; 
+{
+  let product = 1;
+  for (let i=0;i &lt; N;i++){
+    product = product*array[i];
+  }
+  return product;
+ 
+
+};</pre><br>
+    <p>2. Find the Sum.</p>
+    <pre>const Find_Sum = (array, N) =&gt; 
+{
+  let sum =0;
+  for(let i=0;i&lt; N;i++){
+    sum = sum+array[i];
+  }
+  return sum
+  
+
+};
+ 
+</pre><br>
+    <p>3. Count Occurrences </p>
+    <pre>const findCount = (N, K, Arr) =&gt; 
+{
+  let count=0;
+  for(let i=0;i&lt; N;i++){
+    if(Arr[i]==K)
+       count++;
+  }
+  return count;
+    
+};
+ 
+</pre><br>
+    <p>4. Even Odd </p>
+    <pre>const findEvenOdd = (N, Arr) =&gt; 
+{
+  let evenSum=0;
+  let oddSum=0;
+  
+  for(let i=0;i&lt; N;i++){
+    if(Arr[i]%2==0){
+      evenSum=evenSum+Arr[i];
+    }
+    else{
+      oddSum=oddSum+Arr[i];
+    }
+  }
+  let result=[];
+  result.push(evenSum);
+  result.push(oddSum);
+  return result;
+    
+};
+ 
+</pre><br>
+    <p>5. Find whether the number is present or not </p>
+    <pre>    const Find_Num = (array,N,M) =&gt; 
+    {
+      let result =[]
+      for(let i=0;i&lt; N;i++){
+        if (array[i]==M){
+          result.push(1)
+        }
+      }
+      if (result[0]==1){
+        return "YES"
+      }
+      else{
+        return "NO"
+      }
+      
+    };
+     
+    </pre><br>
+    <p>6. Higher Age </p>
+    <pre>        const highAge = (N, Arr) =&gt; 
+        {
+          let age=[];
+          for(i=0;i&lt; =N;i++){
+            if (Arr[i] &gt;=18){
+              age.push(Arr[i]);
+            }
+          }
+          return age;
+         
+        };
+         
+        </pre><br>
+    <p>7. Increment the Array Elements </p>
+    <pre>            const Inc_Arr = (array,N) =&gt; 
+            {
+              let result =[];
+              for(i=0;i&lt; N;i++){
+                array[i] = array[i] + 1;
+                result.push(array[i]);
+              }
+              let result1 = result.join(" ");
+              console.log(result1)
+              
+            
+            };
+             
+            </pre><br>
+    <p>8. Pass or Fail </p>
+    <pre>                const isAllPass = (N, Arr) =&gt; 
+                {
+                  for(i=0;i&lt; Arr.length;i++){
+                    if(Arr[i]&lt; 32){
+                      return "NO";
+                    }
+                  }
+                  return "YES";
+                 
+                    
+                };
+                 
+                </pre><br>
+    <p>9. Unique Color Shirt </p>
+    <pre>                    function Unique_Shirts (arr,N) {
+                      let count =0;
+                      for (i=0;i&lt; N;i++){
+                        let s = arr[i];
+                        for(j=0;j&lt; N;j++){
+                          if (j!==i){
+                            if(s===arr[j]){
+                              count++;
+                              break;
+                            }
+                          }
+                        }
+                      }
+                      return N-count
+                    
+                     
+                    }
+                    
+                    </pre><br>
+    <p>10. Min and Max </p>
+    <pre>                        function arrayMin(arr) {
+                          var min = arr[0];
+                          for(let i=0;i&lt; arr.length;++i){
+                            if (arr[i]<min){ min="arr[i];" }="" return="" min;="" function="" arraymax(arr)="" {="" var="" max="arr[0];" for(let="" i="1;i<arr.length;++i){" if="" (arr[i]="">max){
+                             max = arr[i];
+                           }
+                         }
+                         return max
+                        
+                       }
+                             
+                            
+                        
+                         
+                       
+                       
+                       
+                       </min){></pre><br>
+    <p>11. Birthday Game </p>
+    <pre>                        function Birthday_Game(arr,D ,M) {
+                          var num = 0;
+                          for(let i=0;i<arr.length -="" m+1;i++){="" let="" slicedsquare="arr.slice(i,i+M);" sum="slicedSquare.reduce((total,number)" ==""> total+number,0);
+                            if(sum ===D){
+                              num++;
+                            }
+                          }
+                          return num;
+                         
+                        
+                        }
+                        
+                        </arr.length></pre><br>
+
+
+
+
+</body></html>
