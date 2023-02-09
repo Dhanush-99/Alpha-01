@@ -150,15 +150,20 @@ h1 {
 
   @media screen and (max-width: 400px) {
 
-    * {
+   * {
         margin: 0;
         padding: 0;
       }
+      html {
+        font-size: 6px;
+    }
 
  .container {
     display: flex;
     flex-direction: column;
     gap: 5rem;
+  }
+  .container1 {
     width: 80%;
     height: 70%;
     display: flex;
@@ -206,6 +211,13 @@ h1 {
     padding-right: 2rem;
     line-height: 10rem;
   }
+  .phead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 500;
+  }
 
   .task {
     position: absolute;
@@ -219,7 +231,14 @@ h1 {
     font-size: 2rem;
     color: white;
   }
-
+  #cancle {
+    height: 4rem;
+    width: 4rem;
+  }
+  #cancle:hover {
+    height: 3rem;
+    width: 3rem;
+  }
 
 
 
