@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="parent">
+        <h1>Map &amp; Set Practice Questions</h1>
+        <h3>Problem: <br><br>
+            You are given a string (STR) of length N, consisting of only the lower case English alphabet.<br>
+            Your task is to remove all the duplicate occurrences of characters in the string.<br><br>
+            
+            Input:<br>
+            abcadeecfb<br><br>
+            
+            Output:<br>
+            abcdef</h3>
+        <div>
+            <h3>Ans.</h3>
+            <pre>                let str = "abcadeecfb";
+                let remove_duplicate = (str) =&gt; {
+                    let setObject = new Set();
+                    let string = "";
+                    for (let i = 0; i &lt; str.length; i++) {
+                        setObject.add(str[i]);
+                    }
+                    for (const key of setObject.keys()) {
+                        string += key;
+                    }
+                    return string;
+                }
+                console.log(remove_duplicate(str));
+            </pre>
+        </div>
+        <h3>Problem: <br><br>
+
+            You are given a string (STR) of length N, you have to print the count of all alphabet.(using maps)
+            <br><br>
+            Input:<br>
+            abcadeecfb<br><br>
+    
+            Output:<br>
+            a=2<br>
+            b=2<br>
+            c=2<br>
+            d=1<br>
+            e=2<br>
+            f=1</h3>
+        <div>
+            <h3>Ans.</h3>
+            <pre>                let s="abcadeecfb";
+                let map = new Map();
+                
+                for(let i=0; i&lt; s.length; i++){
+                  if(map.has(s[i])){
+                    let previousCount= map.get(s[i]);
+                    map.set(s[i],previousCount+1);
+                  }
+                  else{
+                    map.set(s[i], 1);
+                  }
+                }
+                for(let [ch, freq] of map.entries()){
+                  console.log(ch+"="+freq);
+                }
+            </pre>
+        </div>
+    </div>
+
+</body></html>
